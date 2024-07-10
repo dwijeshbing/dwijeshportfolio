@@ -63,7 +63,7 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-        <div>
+        <div className='icon-container'>
         <img
               src={LogoTitle}
               alt="D"
