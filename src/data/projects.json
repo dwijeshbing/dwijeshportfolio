@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Vrikshayan",
+    "imageSrc": "assets/projects/project2.png",
+    "description": "Developed an efficient billing system for organizations which includes statistical analysis",
+    "skills": ["React", "Express", "Node"],
+    "demo":"https://github.com/Pavan-Bhumpalli/Vrikshayan-billing",
+    "source": "https://github.com/Pavan-Bhumpalli/Vrikshayan-billing"
+  },
+  {
+    "title": "Portfolio",
+    "imageSrc": "assets/projects/project.png",
+    "description": "This is a project made to showcase my skills",
+    "skills": ["React","Sass","MailJs"],
+    "demo": "https://github.com/dwijeshbing/portfolio_",
+    "source": "https://github.com/dwijeshbing/portfolio_"
+  },
+  {
+    "title": "Human-Horse Predictor",
+    "imageSrc": "assets/projects/project.jpeg",
+    "description": "This project is made for making Classification of Images into Man or Horse",
+    "skills": ["TensorFlow","CNN"],
+    "demo": "https://colab.research.google.com/drive/1sZMgNpSOi2-i5eW3Gt22Q9gxBM7lLP4Z?usp=sharing",
+    "source": "https://colab.research.google.com/drive/1sZMgNpSOi2-i5eW3Gt22Q9gxBM7lLP4Z?usp=sharing"
+  }
+]
