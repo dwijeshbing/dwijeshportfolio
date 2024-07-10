@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/logo-s.png'
-import Logo from './Logo'
 import './index.scss'
 
 const Home = () => {
@@ -45,7 +44,7 @@ const Home = () => {
             <span className={`${letterClass} _14`}>'m</span>
             <img
               src={LogoTitle}
-              alt="JavaScript Developer Name, Web Developer Name"
+              alt="Dvijesh"
             />
             <AnimatedLetters
               letterClass={letterClass}
@@ -64,7 +63,12 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-        <Logo />
+        <div>
+        <img
+              src={LogoTitle}
+              alt="D"
+              className='icon'/>
+        </div>
       </div>
 
       <Loader type="pacman" />
