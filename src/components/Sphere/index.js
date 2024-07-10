@@ -7,20 +7,18 @@ const Sphere = () => {
         const container = '.tagcloud';
         const texts = [
             "Python",
-            "Java",
-            "C",
             "C++",
             "HTML",
             "CSS",
-            "SASS",
-            "ExpressJS",
-            "JavaScript",
+            "SCSS",
+            "Java",
+            "Express",
+            "JS",
             "React",
-            "NodeJS",
-            "Jquery",
+            "Node",
             "GITHUB",
             "MongoDB",
-            "MySql"
+            "Sql"
         ];
         const getRadius = () => {
             const width = window.innerWidth;
