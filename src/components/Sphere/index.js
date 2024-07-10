@@ -7,28 +7,28 @@ const Sphere = () => {
         return () => {
             const container = ".tagcloud";
             const texts = [
-                "Pyhthon",
+                "Python",
                 "Java",
                 "C",
-
+                "C++",
                 "HTML",
                 "CSS",
                 "SASS",
+                "ExpressJS",
                 "JavaScript",
                 "React",
                 "NodeJS",
                 "Jquery",
-                "GIT",
                 "GITHUB",
                 "MongoDB",
                 "MySql"
             ];
             const getRadius = () => {
                 const width = window.innerWidth;
-                if (width <= 480) return 100;  // Mobile devices
-                if (width <= 768) return 150;  // Tablets
-                if (width <= 1024) return 200; // Small laptops/desktops
-                return 300;                    // Large screens
+                if (width <= 480) return 100;
+                if (width <= 768) return 150;
+                if (width <= 1024) return 200;
+                return 300;
             };
 
             const options = {
