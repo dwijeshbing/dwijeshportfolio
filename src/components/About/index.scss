@@ -135,6 +135,7 @@
 @keyframes moveToBackground {
   to {
     opacity: 0.5;
+    transform: scale(0.8) translateY(100%);
     z-index: -1;
   }
 }
