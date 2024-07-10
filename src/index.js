@@ -5,9 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 
+
+const homepage = process.env.REACT_APP_HOMEPAGE || '/';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <React.StrictMode basename={homepage}>
     <BrowserRouter>
     <App />
     </BrowserRouter>
