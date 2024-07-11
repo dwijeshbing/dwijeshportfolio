@@ -70,6 +70,7 @@
     float: right;
     text-align: center;
     margin-right: 10px;
+    cursor: pointer;
   }
 }
 
@@ -119,11 +120,19 @@
   .map-wrap {
     float: none;
     margin: 0;
-    width: 100%;
-    height: 400px;
+    width: 80%;
+    animation: moveToBackground 2s 2s forwards;
+    height: auto;
   }
 
   .info-map {
     display: none;
+  }
+}
+
+@keyframes moveToBackground {
+  to {
+    transform: scale(0.8);
+    z-index: -1;
   }
 }

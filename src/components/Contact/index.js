@@ -3,6 +3,8 @@ import Loader from 'react-loaders'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
+import Swal from 'sweetalert2';
+
 import './index.scss'
 
 const Contact = () => {
@@ -19,11 +21,16 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs
-      .sendForm('gmail', 'service_urqq04h', form.current, 'your-token')
+      .sendForm('service_nl31eri', 'template_lrey84x', form.current, '4Qs00XSiN5CTkODa-')
       .then(
         () => {
-          alert('Message successfully sent!')
-          window.location.reload(false)
+          Swal.fire({
+            text: "Message Sent Successfully!",
+            icon: "success"
+          }).then(() => {
+            window.location.reload(false);
+          }
+        )
         },
         () => {
           alert('Failed to send the message, please try again')

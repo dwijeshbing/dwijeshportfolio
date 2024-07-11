@@ -1,0 +1,9 @@
+[
+  {
+    "title": "KeshavSoft",
+    "imageSrc": "assets/work/KS.jpg",
+    "description": "As a FullStack Developer, contributed to developing an application for managing various operations in aLaundry Store, including order taking, inventory management, and billing.",
+    "skills": ["Express", "NodeMailer"],
+    "demo":"https://drive.google.com/file/d/1hr-9c3OercXZGoB3ZAUsGgjtC5iHb6SJ/view"
+  }
+]

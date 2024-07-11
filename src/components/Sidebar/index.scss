@@ -98,6 +98,12 @@
       }
     }
 
+    a.work-link {
+      &:after {
+        content: 'WORK';
+      }
+    }
+
     a.project-link {
       &:after {
         content: 'PROJECTS';
@@ -180,6 +186,7 @@
         position: initial;
         width: auto;
         margin-left: 10PX;
+        color: rgb(170, 170, 150);
       }
 
       a svg {

@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react'
-import { ProjectCard } from './ProjectCard'
+import { WorkCard } from './WorkCard'
 import AnimatedLetters from '../AnimatedLetters'
-import projects from '../../data/projects.json'
+import projects from '../../data/work.json'
 import Loader from 'react-loaders'
-import styles from './Projects.module.css'
+import styles from './Work.module.css'
 
-const Projects = () => {
+const Work = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
   useEffect(() => {
@@ -21,7 +21,7 @@ const Projects = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['P', 'r', 'o', 'j', 'e', 'c', 't', 's']}
+              strArray={['E', 'x', 'p', 'e', 'r', 'i', 'e', 'n', 'c', 'e']}
               idx={15}
             />
           </h1>
@@ -32,16 +32,16 @@ const Projects = () => {
         <section className={styles.container1} id="projects">
           <div className={styles.projects}>
             {projects.map((project, id) => {
-              return <ProjectCard key={id} project={project} />;
+              return <WorkCard key={id} project={project} />;
             })}
           </div>
         </section>
       </div>
-     
+
 
       <Loader type="pacman" />
     </>
   )
 }
 
-export default Projects;
+export default Work;
