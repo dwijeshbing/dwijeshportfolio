@@ -17,7 +17,7 @@
   },
   {
     "title": "Human-Horse Predictor",
-    "imageSrc": "assets/projects/project.jpeg",
+    "imageSrc": "assets/projects/project.jpg",
     "description": "This project is made for making Classification of Images into Man or Horse",
     "skills": ["TensorFlow","CNN"],
     "demo": "https://colab.research.google.com/drive/1sZMgNpSOi2-i5eW3Gt22Q9gxBM7lLP4Z?usp=sharing",
